@@ -1,6 +1,20 @@
 // khai báo mảng
 // const arrayNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // console.log(arrayNumber);
+// cách tạo mảng
+// cách 1 sử dụng đối tượng Array
+const array1 = new Array(1,"A",null,undefined)
+
+for(let i= 0;i<array1.length;i++){
+  console.log("Index",i);//vị trí
+  console.log(array1[i])//giá trị của các phần tử
+}
+// cách 2 :khai báo theo kiểu liternal
+const array2 =[1,2,3,4,5];
+
+for(let i=0;i<array2.length;i++){
+  console.log(array2[i])
+}
 
 // truy xuất lấy ra từng phần tử của mảng
 // // cách 1
@@ -8,6 +22,7 @@
 // console.log("phần tử của mảng tại vị trí thứ 4 ", arrayNumber[4]);
 // console.log("phần tử của mảng tại vị trí thứ 5", arrayNumber[5]);
 
+//
 // // cách 2 dùng vòng lặp
 // for(let i = 0;i<arrauNumber.length;i++){
 //     console.log("vị trí trong mảng :",i);
